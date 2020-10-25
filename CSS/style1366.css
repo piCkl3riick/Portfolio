@@ -1,0 +1,344 @@
+
+
+@media screen and (min-width: 1366px) {
+
+  .video-bg-star {
+  grid-area: var(--fullGrid);
+  position: fixed;
+  min-width: 102%;
+  min-height: 102%;
+  object-fit: cover;
+  width: 120vw;
+  height: 100vh;
+  z-index: -1;
+  margin-top: 0;
+  transition: 1s all ease-in-out;
+  animation: linear;
+}
+
+
+  /*HEADER SECTION - NAVIGATION */
+  .nav-bar {
+    position: fixed;
+    margin: 0px;
+    overflow: hidden;
+    height: 40px;
+    width: 100vw;
+    z-index: 20;
+    /* background-image: url(../images/876589.jpg); */
+    background-size: 750px;
+    box-shadow: 0 0 18px 7px black;
+  }
+
+  .nav-bar ul {
+    margin: -13px auto;
+    padding: 20px 16px;
+    font-family: try;
+    text-shadow: 2px 2px 9px #ffffff59;
+    display: block;
+    z-index: 3;
+    width: fit-content;
+  }
+
+  .navbar-nav li {
+    margin-left: 20px;
+    display: inline-block;
+    list-style: none;
+    padding: 0 16px;
+    transition: all 0.6s ease-in-out;
+  }
+
+  .nav-bar a {
+    color: rgba(3, 169, 244, 0.83);
+    text-decoration: none;
+    font-size: 1.3em;
+    text-shadow: -5px 2px 4px black;
+  }
+
+  .nav-bar img {
+    position: absolute;
+    margin: -5px 0px 0px;
+    width: 90px;
+    height: 66px;
+    border-radius: 0px;
+    left: 50px;
+  }
+
+  .navbar-nav img {
+    margin: -9px 0px 0px 0px;
+    width: 5%;
+    height: 6.5vh;
+  }
+
+  .nav-bar li:hover {
+    background-color: #69696963;
+    color: purple;
+    padding-top: 0px;
+    border-radius: 10px;
+    border-bottom-right-radius: 0%;
+    border-top-left-radius: 0%;
+
+    transition: all 0.3s ease-in-out;
+  }
+
+
+
+
+/*Home Section*/
+#Home-Section {
+  position: absolute;
+  box-sizing: border-box;
+  margin-top: 40px;
+  background-size: 1300px;
+  height:  calc(100vh - 40px);
+  width: 100%;
+  transition: all 0.4s ease-in;
+  z-index: 4;
+}
+
+#main-box {
+    box-sizing: border-box;
+    background-image: url(../images/GitHub-Universe-lounge-cut.png);
+    margin: 338px 50%;
+    width: 100vw;
+height: calc(100vh - 38px);
+    transition: margin-left 0.5s;
+    transform: translate(-50%, -50%);
+    background-size: 100% 100%;
+    padding-top: 0px;
+}
+
+#main-details {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: margin-left 0.5s;
+    width: 97vw;
+    justify-content: center;
+    background-color: #00000089;
+height: calc(100vh - 38px);
+    /* padding: 10px 50px 0px 50px; */
+    padding: 20px 10%;
+    transition: all 1s ease-in-out;
+}
+
+
+
+
+
+#main-details:hover {
+  background-color: #000000af;
+  transition: all 0.9s ease-in-out;
+}
+
+
+  #main-details > h1 {
+
+    margin-top: 70px;
+    color: #ffffff;
+    font-family: badscript;
+    text-shadow: 1px 1px 20px #e60bef;
+    font-size: 1.5em;
+    font-kerning: normal;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 20px;
+  }
+
+
+
+
+
+  h1>#free{
+    position: absolute;
+  }
+
+  #freelance{
+     padding-top: 145px;
+    margin-top: -128px;
+    color: rgb(255, 255, 255);
+    font-family: badscript;
+    text-shadow: rgb(230, 11, 239) 1px 1px 20px;
+
+    font-kerning: normal;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 20px;
+    /* position: absolute; */
+    visibility: visible;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-name: fadeIn;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #dev {  
+    position: relative;
+margin-top: -230px;
+    padding-top: 290px;
+    font-family: Sri;
+    font-size: 24px;
+    color: antiquewhite;
+    letter-spacing: 10px;
+    text-shadow: 0 6px 7px black;
+    text-align: center;
+    font-weight: 900;
+  }
+
+  #Logo-close {
+    position: absolute;
+    margin-top: 0px;
+    background-image: url(../images/black-paint-splats-4.png);
+    background-position-y: 48%;
+    background-position-x: 28%;
+    background-size: 255%;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .video-bg-rm {
+    grid-area: var(--fullGrid);
+    position: absolute;
+    min-width: 23%;
+    min-height: 9%;
+    /* object-fit: cover; */
+    width: 99vw;
+    height: 32vh;
+    z-index: -1;
+    margin-top: -78px;
+  }
+
+
+
+
+
+
+
+
+.Home-Images {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 50% 30%;
+  grid-column: 2;
+  grid-gap: 212%;
+  margin: -220px 0px 0px 0%;
+  justify-items: center;
+}
+
+#MainImageLeft {
+  position: fixed;
+  margin-top: 9px;
+  margin-left: 0.4%;
+  width: 15%;
+  height: 17.3%;
+  display: block;
+  transition: all 0.4s ease-in-out;
+}
+
+#MainImageLeft:hover {
+  margin-left: -3%;
+  width: 231px;
+  height: 196px;
+  transition: all 0.4s ease-in-out;
+}
+
+#MainImageRight {
+  position: fixed;
+  /* margin: -150px 0px 0px 1100px; */
+  margin-left: 78%;
+  width: 12%;
+  height: 22%;
+  transition: all 0.4s ease-in-out;
+}
+
+#MainImageRight:hover {
+  width: 228px;
+  height: 228px;
+  transition: all 0.3s ease-in-out;
+}
+
+#Portfolio-button {
+  position: absolute;
+  margin: 396px 0px 0px 37%;
+  background-color: rgb(2, 141, 203);
+  width: 350px;
+  height: 70px;
+  border-radius: 20px;
+  font-family: try;
+  font-size: 16px;
+  letter-spacing: 30px;
+  text-align: center;
+  box-shadow: inset -1px 0px 20px 5px black;
+  padding: 23px 23px 23px 23px;
+}
+
+#Portfolio-button > A {
+  text-decoration: none;
+}
+
+#Portfolio-button button:hover {
+  margin: 19% 30%;
+  background-color: rgba(92, 73, 12, 0.541);
+  width: 500px;
+  height: 80px;
+  border-radius: 0px;
+  font-family: try;
+  font-size: 30px;
+  letter-spacing: 30px;
+  text-align: center;
+  transition: all 0.5s ease-in;
+  text-shadow: red;
+  font-weight: 400;
+}
+
+.port-row {
+  margin-left: 150px;
+  padding-top: 131px;
+}
+
+
+.row > div > h2 {
+    color: rgba(3, 169, 244, 0.83);
+    font-family: kaushan;
+    text-align: center;
+    font-size: 2em;
+}
+
+/*End of Home Section*/
+
+
+
+#Experience {
+    position: absolute;
+    margin-top: 1403px;
+    height: 99.8vh;
+    width: 100vw;
+    background-color: rgba(78, 63, 63, 0.285);
+    transition: 1s all ease-in-out;
+    overflow: hidden;
+}
+
+
+#exp2 > h2, h3 {
+    font-size: 1rem;
+}
+
+
+
+
+  #About {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    /* background-image: url(../images/LRM_EXPORT_20180107_000458.png); */
+    background-size: 100% 100%;
+    /* background-position: left; */
+    background-repeat: no-repeat;
+    /* box-shadow: 0 0 10px 0px white; */
+    background-position-y: 210%;
+    /* background-position-x: 298%; */
+margin-top:2098px
+  }
+}

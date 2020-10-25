@@ -1,0 +1,130 @@
+@media screen and (min-width: 414px) and (min-height: 736px) {
+
+
+.video-bg-star{
+      grid-area: var(--fullGrid);
+    position: fixed;
+    min-width: 102%;
+    min-height: 100vh;
+    object-fit: cover;
+    width: 120vw;
+    height: 47vh;
+    z-index: -1;
+    margin-top: 0px;
+    transition: 1s all ease-in-out;
+    animation: linear;
+}
+
+  
+/*Home Section*/
+#Home-Section {
+position: absolute;
+    box-sizing: border-box;
+    margin-top: 40px;
+    background-size: 1300px;
+    /* height: calc(100vh - 40px); */
+    width: 100vw;
+    transition: all 0.4s ease-in;
+    z-index: 4;
+    height: 100vh;
+}
+
+
+  #main-box {
+box-sizing: border-box;
+    background-image: url(../images/GitHub-Universe-lounge-cut.png);
+    margin: 368px 50%;
+    width: 310vw;
+    height: calc(100vh - 40px);
+    transition: margin-left 0.5s;
+    transform: translate(-50%, -50%);
+    background-size: 100% 100%;
+    height: 100vh;
+  }
+
+
+  #main-details{
+    height: calc(100vh - 40px);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1px;
+  }
+
+  #main-details > h1 {
+margin-top: 130px;
+    color: #ffffff;
+    font-family: badscript;
+    text-shadow: 1px 1px 20px #e60bef;
+    font-size: 1em;
+    font-kerning: normal;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 20px;
+  }
+
+    h1>#free{
+    position: absolute;
+  }
+
+  #dev {
+    margin-top: -140px;
+
+        position: relative;
+    padding-top: 290px;
+    font-family: Sri;
+    font-size: 24px;
+    color: antiquewhite;
+    letter-spacing: 10px;
+    text-shadow: 0 6px 7px black;
+    text-align: center;
+    font-weight: 900;
+  }
+
+  #Portfolio {
+    margin: 760px 0px 0px 0px;
+  }
+
+#Logo-close{
+      margin-top: 2px;
+}
+
+  .video-bg-rm {
+margin-top: -58px;
+  }
+
+  .port-row {
+    padding-top: 165px;
+  }
+
+  
+
+  #Experience {
+margin-top: 1525px;
+position: absolute;
+
+height: 99.7vh;
+    width: 100vw;
+    background-color: rgba(78, 63, 63, 0.285);
+    transition: 1s all ease-in-out;
+    overflow: hidden;
+  }
+
+  #exp-title {
+    margin-top: 90px;
+  }
+
+  #About {
+    margin-top: 2286px;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    /* background-image: url(../images/LRM_EXPORT_20180107_000458.png); */
+    background-size: 100% 100%;
+    /* background-position: left; */
+    background-repeat: no-repeat;
+    /* box-shadow: 0 0 10px 0px white; */
+    background-position-y: 210%;
+    /* background-position-x: 298%; */
+  }
+}

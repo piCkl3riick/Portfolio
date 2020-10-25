@@ -1,0 +1,192 @@
+
+
+@media screen and (min-width: 1536px) {
+    .video-bg-star {
+  grid-area: var(--fullGrid);
+  position: fixed;
+  min-width: 102%;
+  min-height: 102%;
+  object-fit: cover;
+  width: 120vw;
+  height: 100vh;
+  z-index: -1;
+  margin-top: 0;
+  transition: 1s all ease-in-out;
+  animation: linear;
+}
+  #main-box {
+    margin: 362px 0px 0px 50%;
+    height: calc(99vh - 40px);
+  }
+
+
+  #main-details{
+height: calc(99vh - 40px);
+  }
+
+  #main-details > h1 {
+    margin-top: 45px;
+  }
+
+
+  #dev {   
+     position: relative;
+margin-top: -140px;
+    padding-top: 290px;
+    font-family: Sri;
+    font-size: 24px;
+    color: antiquewhite;
+    letter-spacing: 10px;
+    text-shadow: 0 6px 7px black;
+    text-align: center;
+    font-weight: 900;
+  }
+
+  #Portfolio {
+    margin: 760px 0px 0px 0px;
+  }
+
+#Logo-close{
+      margin-top: 2px;
+}
+
+  .video-bg-rm {
+margin-top: -58px;
+  }
+
+  .port-row {
+    padding-top: 165px;
+  }
+
+  
+
+  #Experience {
+margin-top: 1525px;
+position: absolute;
+
+height: 99.7vh;
+    width: 100vw;
+    background-color: rgba(78, 63, 63, 0.285);
+    transition: 1s all ease-in-out;
+    overflow: hidden;
+  }
+
+  #exp-title {
+    margin-top: 90px;
+  }
+
+  #About {
+    margin-top: 2286px;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    /* background-image: url(../images/LRM_EXPORT_20180107_000458.png); */
+    background-size: 100% 100%;
+    /* background-position: left; */
+    background-repeat: no-repeat;
+    /* box-shadow: 0 0 10px 0px white; */
+    background-position-y: 210%;
+    /* background-position-x: 298%; */
+  }
+}
+
+/* Video Section */
+
+:root {
+  /* Base font size */
+
+  /* Full grid area variable */
+  --fullGrid: 1 / 1 / -1 / -1;
+}
+
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  background-color: #fcfcfc;
+}
+
+.grid-video {
+  /* Create grid spanning viewport width & height */
+  display: grid;
+  grid-template-rows: 100vh;
+  overflow: hidden;
+  box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.5);
+}
+
+.video-bg {
+  /* Span the full grid */
+  grid-area: var(--fullGrid);
+
+  /* Re-size video to cover full screen while maintaining aspect ratio */
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+
+  width: 100vw;
+  height: 100vh;
+  /* Display video below overlay */
+  z-index: -1;
+}
+
+.video-bg::-webkit-media-controls {
+  display: none !important;
+}
+
+.video-overlay {
+  /* Span the full grid */
+  grid-area: var(--fullGrid);
+
+  /* Center Content */
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+  /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+h1 {
+  font-size: calc(1.8em + 2.5vw);
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  text-shadow: 0.05em 0.05em 0.05em rgba(0, 0, 0, 0.4);
+}
+
+main {
+  padding: 5em 2em;
+  max-width: 94em;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: calc(3em + 0.2vw);
+  font-weight: 600;
+  text-align: center;
+  margin: 1.2em 0;
+  color: #111;
+}
+
+p {
+  font-size: calc(2em + 0.2vw);
+  font-weight: 400;
+  line-height: 2;
+  color: rgb(255, 255, 255);
+}
+
+::-moz-selection {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+}
+
+::selection {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+}
+
+.About-row {
+  margin-top: 220px;
+}
+
+/* End of Video Section */
